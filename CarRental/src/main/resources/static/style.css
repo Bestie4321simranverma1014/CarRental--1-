@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+html , body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/66/25/239/machine-grey-background-volvo-wallpaper-preview.jpg");
+  background-size: cover;
+}
+
+
+.container {
+  width: 500px;
+  height: 40%;
+  padding: 30px;
+  background-color: rgba(127, 128, 134, 0.856); 
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 70%;
+  margin-left: 8.6rem;
+  padding: 10px;
+  background-color: #0c0c0c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+ 
+}
+
+button:hover {
+  background-color: #414142;
+}
+
+
